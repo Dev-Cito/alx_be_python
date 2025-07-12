@@ -7,8 +7,6 @@ principal = 1000
 rate = 0.05
 time = 3
 
-def interest_earned(P, R, T) :
-    I = P * R * T
-    print("The simple interest is: ", I)
+interest = principal * rate * time
 
-interest_earned(principal, rate, time)
+print("The simple interest is:", interest)
