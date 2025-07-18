@@ -1,17 +1,17 @@
 
-Task = input("Enter your task: ")
-Priority = input("Enter the task's priority (high, medium, low): ").lower()
-Time_bound = input("Is the task time-bound? (yes or no): ").lower()
+Task = input("Enter your task:")
+Priority = input("Priority (high/medium/low):").lower()
+Time_bound = input("Is it time-bound? (yes/no):").lower()
 
 match Priority:
     case "high":
-        message = f"High-priority task: '{Task}'"
+        message = f"'{Task}' is a High-priority task"
     case "medium":
-        message = f"Medium-priority task: '{Task}'"
+        message = f"'{Task}' is a Medium-priority task"
     case "low":
-        message = f"Low-priority task: '{Task}'"
+        message = f"'{Task}' is a Low-priority task."
     case _:
-        message = f"Unknown-priority task: '{Task}'"
+        message = f"'{Task}' is a Unknown-priority task"
 
 if Time_bound == "yes":
     message += " that requires immediate attention today!"
