@@ -17,7 +17,11 @@ if Time_bound == "yes":
     message += " that requires immediate attention today!"
     print("\nReminder:", end=" ")
     print(message)
-else :
+elif Time_bound == "no":
     message += " Consider completing it when you have free time."
     print("\nNote:", end=" ")
     print(message)
+else :
+    print("Invalid time bound!")
+
+
