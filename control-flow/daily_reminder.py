@@ -1,5 +1,4 @@
 
-reminder = f"Provide a Customized Reminder"
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ").lower()
 time_bound = input("Is it time-bound? (yes/no): ").lower()
@@ -19,5 +18,5 @@ if time_bound == "yes":
 else:
     message += " that you can work on when convenient."
 
-print(reminder)
+print("Provide a Customized Reminder\n")
 print(message)
