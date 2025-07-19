@@ -25,3 +25,18 @@ else :
     print("Invalid time bound!")
 
 
+custom_note = Task
+reminder_date = input("\nReminder date (optional, DD-MM-YYYY): ")
+reminder_time = input("Reminder time (optional, e.g., 2:00 PM): ")
+
+if custom_note or reminder_date or reminder_time:
+    print("\n🔔 Your reminders:")
+    if custom_note:
+        print(f"   📝 Note: {custom_note}")
+    if reminder_date:
+        print(f"   📅 Date: {reminder_date}")
+    if reminder_time:
+        print(f"   ⏰ Time: {reminder_time}")
+
+
+
