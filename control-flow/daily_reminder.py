@@ -1,5 +1,5 @@
 
-reminder = f"MY PERSONAL DAILY REMINDER"
+reminder = f"Provide a Customized Reminder"
 task = input("Enter your task: ")
 priority = input("Priority (high/medium/low): ").lower()
 time_bound = input("Is it time-bound? (yes/no): ").lower()
