@@ -13,17 +13,17 @@ def main():
     shopping_list = []
     while True:
         display_menu()
-        choice = int(input("Enter your choice: "))
+        choice = input("Enter your choice: ")
 
         if choice == '1':
             # Prompt for and add an item
-            add_item = str(input("Enter an item :"))
+            add_item = str(input("Enter the item to add:"))
 
             shopping_list.append(add_item)
             pass
         elif choice == '2':
             # Prompt for and remove an item
-            remove_item = str(input("Remove an item :"))
+            remove_item = str(input("Remove an item:"))
             shopping_list.remove(remove_item)
             pass
         elif choice == '3':
