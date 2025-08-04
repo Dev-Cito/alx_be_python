@@ -9,11 +9,11 @@ class BankAccount:
         else:
             return "Deposit amount must be positive."
 
-    def withdraw(self, amount):
+   def withdraw(self, amount):
         if amount > self.account_balance:
             return False
-    else:
-        self.account_balance -= amount
+        else:
+            self.account_balance -= amount
             return True
         
 
