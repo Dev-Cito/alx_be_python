@@ -14,8 +14,9 @@ class BankAccount:
             return False
     
     def display_balance(self):
-        return f"Current Balance: ${self.account_balance:.2f}"
+        return f"Current Balance: ${self.account_balance}.00"
 
 my_account = BankAccount()
 
 my_account.withdraw(50)
+
