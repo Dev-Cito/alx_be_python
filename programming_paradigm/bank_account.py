@@ -17,11 +17,12 @@ class BankAccount:
             return "Insufficient funds."
 
     def display_balance(self):
-        return f"Current balance: {self.__account_balance}"
+        return f"Current Balance:{self.__account_balance}"
         
 my_account = BankAccount()
 
 print(my_account.deposit(200))
 print(my_account.withdraw(100))
 print(my_account.display_balance())
+
 
