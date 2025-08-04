@@ -16,8 +16,6 @@ class BankAccount:
     def display_balance(self):
         return f"Current Balance: ${self.account_balance:.2f}"
 
-# Test code - you might need something like this
-if __name__ == "__main__":
-    # Example that would produce "Current Balance: $250.00"
-    account = BankAccount(250)
-    print(account.display_balance())
+my_account = BankAccount()
+
+my_account.withdraw(50)
