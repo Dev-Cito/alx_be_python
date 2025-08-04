@@ -22,7 +22,7 @@ class BankAccount:
 my_account = BankAccount()
 
 print(my_account.deposit(200))
-print(my_account.withdraw(100))
-print(my_account.display_balance())
+
+
 
 
