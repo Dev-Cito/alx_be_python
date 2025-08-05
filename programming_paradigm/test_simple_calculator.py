@@ -1,4 +1,4 @@
-from test_simple_calculator import SimpleCalculator
+from simple_calculator import SimpleCalculator
 import unittest
 
 class TestSimpleCalculator(unittest.TestCase):
@@ -30,3 +30,4 @@ class TestSimpleCalculator(unittest.TestCase):
 
 if __name__ == '__main__':
 unittest.main()
+
