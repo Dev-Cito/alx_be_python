@@ -14,5 +14,3 @@ def safe_divide(numerator, denominator):
 
 
 
-
-print(safe_divide(10, 2))        
